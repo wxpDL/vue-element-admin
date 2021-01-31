@@ -5,6 +5,12 @@ const tokens = {
   },
   editor: {
     token: 'editor-token'
+  },
+  wxp: {
+    token: 'editor-wxp-token'
+  },
+  lq: {
+    token: 'editor-lq-token'
   }
 }
 
@@ -18,6 +24,18 @@ const users = {
   'editor-token': {
     roles: ['editor'],
     introduction: 'I am an editor',
+    avatar: 'https://wpimg.wallstcn.com/f778738c-e4f8-4870-b634-56703b4acafe.gif',
+    name: 'Normal Editor'
+  },
+  'editor-wxp-token': {
+    roles: ['editor'],
+    introduction: 'I am an editor-wxp',
+    avatar: 'https://wpimg.wallstcn.com/f778738c-e4f8-4870-b634-56703b4acafe.gif',
+    name: 'Normal Editor'
+  },
+  'editor-lq-token': {
+    roles: ['editor'],
+    introduction: 'I am an editor-lq',
     avatar: 'https://wpimg.wallstcn.com/f778738c-e4f8-4870-b634-56703b4acafe.gif',
     name: 'Normal Editor'
   }
